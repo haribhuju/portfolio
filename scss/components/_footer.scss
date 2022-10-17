@@ -1,0 +1,29 @@
+@use "../general/colors" as clrs;
+
+.footer{
+    margin: 10rem 1.5rem 3.2rem;
+    max-width: 450px;
+
+    &__content{
+        text-align: center;
+        background-color: clrs.color(title);
+        color: clrs.color(main-bg);
+    }
+
+    &__nav{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo{
+            &__img{
+                width: 64px;
+            }
+            
+        }
+
+        &-btn{
+            background-color: clrs.color(primary-btn);
+        }
+    }
+}

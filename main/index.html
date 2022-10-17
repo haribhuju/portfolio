@@ -1,15 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>Design Portfolio</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__nav-logo">
+          <img src="assets/logo.svg" alt="" class="header__nav-logo__img" />
+        </div>
+        <a href="#" class="header__nav-btn btn">Free Consultation</a>
+      </nav>
+
+      <div class="header__hero">
+        <h1 class="header__hero-title">Design solutions made easy</h1>
+        <p class="header__hero-para">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+        <div class="header__hero-content">
+          <div class="header__hero-content__img image1">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-graphic-design.svg"
+              alt="graphic design"
+            />
+            </div>
+            
+            <span>Graphic Design</span>
+          </div>
+          <div class="header__hero-content__img image2">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-ui-ux.svg"
+              alt="UX/UI"
+            />
+            </div>
+            <span>UI/UX</span>
+          </div>
+
+          <div class="header__hero-content__img image3">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-apps.svg"
+              alt="Apps"
+            />
+            </div>
+            <span>Apps</span>
+          </div>
+          <div class="header__hero-content__img image4">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-photography.svg"
+              alt="Photography"
+            />
+            </div>
+            <span>Photography</span>
+          </div>
+
+          <div class="header__hero-content__img image5">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-illustrations.svg"
+              alt="Illustrations"
+            />
+            </div>
+            <span>Illustrations</span>
+          </div>
+          <div class="header__hero-content__img image6">
+            <div class="header__hero-content__img-pattern">
+              <img
+              src="assets/pattern-motion-graphics.svg"
+              alt="pattern-motion-graphics"
+            />
+            </div>
+            <span>Motion Graphics</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__photo">
+        <img src="assets/image-amy.webp" alt="" class="main__photo-img" />
+      </div>
+      <div class="main__content">
+        <h2 class="main__content-title">
+          I’m Amy, and I’d love to work on your next project
+        </h2>
+        <p class="main__content-para">
+          I love working with others to create beautiful design solutions. I’ve
+          designed everything from brand illustrations to complete mobile apps.
+          I’m also handy with a camera!
+        </p>
+
+        <a href="#" class="main__content-btn btn">Free Consultation</a>
+      </div>
+    </main>
+
+    <section class="work">
+      <h3 class="work__title">My work</h3>
+      <div class="work__image">
+        <div class="work__image-silde silde1">
+          <img
+            src="assets/image-slide-1.jpg"
+            alt=""
+            class="work__image-slide1"
+          />
+        </div>
+        <div class="work__image-silde silde2">
+          <img
+            src="assets/image-slide-2.jpg"
+            alt=""
+            class="work__image-slide2"
+          />
+        </div>
+        <div class="work__image-silde silde3">
+          <img
+            src="assets/image-slide-3.jpg"
+            alt=""
+            class="work__image-slide3"
+          />
+        </div>
+        <div class="work__image-silde silde4">
+          <img
+            src="assets/image-slide-4.jpg"
+            alt=""
+            class="work__image-slide4"
+          />
+        </div>
+        <div class="work__image-silde silde5">
+          <img
+            src="assets/image-slide-5.jpg"
+            alt=""
+            class="work__image-slide5"
+          />
+        </div>
+      </div>
+      <div class="work__btn">
+        <div class="work__btn-slider">
+          <img
+            src="assets/icon-arrow-left.svg"
+            alt=""
+            class="work__btn-left__img"
+          />
+        </div>
+        <div class="work__btn-slider">
+          <img
+            src="assets/icon-arrow-right.svg"
+            alt=""
+            class="work__btn-right__img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__content-info">
+          <h4 class="footer__content-info__title">Book a call with me</h4>
+          <p class="footer__content-info__para">
+            I’d love to have a chat to see how I can help you. The best first
+            step is for us to discuss your project during a free consultation.
+            Then we can move forward from there.
+          </p>
+        </div>
+        <a href="#" class="footer__content-btn btn">Free Consultation</a>
+      </div>
+
+      <div class="footer__nav">
+        <div class="footer__nav-logo">
+          <img src="assets/logo.svg" alt="" class="footer__nav-logo__img">
+        </div>
+
+        <a href="#" class="footer__nav-btn btn">Free Consultation</a>
+      </div>
+    </footer>
+  </body>
 </html>

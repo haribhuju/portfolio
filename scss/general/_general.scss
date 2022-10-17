@@ -1,7 +1,10 @@
+@use "../general/colors" as clrs;
+
 body{
-    font-family: '', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 2.8rem;
+    background-color: clrs.color(main-bg);
 }
 
 a{

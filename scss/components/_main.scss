@@ -1,0 +1,38 @@
+@use "../general/colors" as clrs;
+
+.main{
+    max-width: 450px;
+    padding: 0 1.6rem;
+    margin: 10rem auto;
+
+    &__photo{
+        margin: 0 calc(3.8rem - 1.6rem);
+    }
+
+    &__content{
+        margin-top: 4rem;
+        text-align: center;
+
+        & > * {
+            margin-top: 2.4rem;
+        }
+
+        &-title{
+            font-size: 2.6rem;
+            line-height: 3.3rem;
+            font-weight: 700;
+        }
+
+        &-para{
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            font-weight: 500;
+            color: clrs.color(para);
+        }
+
+        &-btn{
+            display: inline-block;
+            background-color: clrs.color(secondary-btn);
+        }
+    }
+}

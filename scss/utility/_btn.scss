@@ -1,0 +1,9 @@
+@use "../general/colors" as clrs;
+
+.btn{
+    color:clrs.color(main-bg);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.8rem 2.7rem;
+    border-radius: 2.8rem;
+}

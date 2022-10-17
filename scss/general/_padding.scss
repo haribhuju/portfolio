@@ -1,0 +1,9 @@
+$padding: (
+   "m" : 1.6rem 0,
+   "t": 3.9rem 0,
+
+);
+
+@function padding($paddingName){
+    @return map-get($padding, $paddingName);
+}
