@@ -1,10 +1,19 @@
+const mediaQuery = window.matchMedia('(min-width: 768px)');
+
+let transformArray = [600, 300, 0, -300, -600];
+
+if (mediaQuery.matches) { transformArray = [1165, 565, 0, -565, -1165]};
+
+  
+
+
 const imageContainer = document.querySelector(".work__image");
 const imageSlide = document.querySelector(".work__image-slide"); 
 const sliderLeft = document.querySelector(".slider__left");
 const sliderRight = document.querySelector(".slider__right");
 
 const slides = [...imageContainer.querySelectorAll(".work__image-slide")];
-const transformArray = [600, 300, 0, -300, -600];
+
 
 
 sliderLeft.addEventListener("click", (e) =>{
