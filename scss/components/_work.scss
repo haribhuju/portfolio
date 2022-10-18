@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    margin: 0 auto;
 
     &__title{
         text-align: center;
@@ -16,16 +17,20 @@
     }
 
     &__image{
-        margin-top: 3.2rem;
         display: flex;
         justify-content: center;
+        margin-top: 3.2rem;
         width: 1410px;
+        //height: 180px;
         gap: 1.5rem;
         
 
-        &-silde{
+        &-slide{
+            width: 270px;
+            height: 180px;
             border-radius: 1.5rem;
             overflow: hidden;
+       
         }
     }
 
@@ -34,12 +39,14 @@
         gap: 1.6rem;
         margin-top: 5.8rem;
         
+        
         &-slider{
             width: 64px;
             height: 64px;
             background-color: clrs.color(primary-btn);
             padding: 2.2rem 2.4rem;
             border-radius: 50%;
+            border: none;
         }
 
     }
