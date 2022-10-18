@@ -19,7 +19,11 @@
         }
 
         &-btn{
-            background-color: clrs.color(primary-btn);   
+            background-color: clrs.color(primary-btn); 
+            
+            &:hover{
+                background-color: clrs.color(primary-btn-hover);
+            }
         }
     }
 

@@ -33,6 +33,10 @@
         &-btn{
             display: inline-block;
             background-color: clrs.color(secondary-btn);
+
+            &:hover{
+                background-color: clrs.color(secondary-btn-hover);
+            }
         }
     }
 }

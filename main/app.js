@@ -1,3 +1,5 @@
+//Media queries
+
 const mediaQuery = window.matchMedia('(min-width: 768px)');
 
 let transformArray = [600, 300, 0, -300, -600];
@@ -5,6 +7,7 @@ let transformArray = [600, 300, 0, -300, -600];
 if (mediaQuery.matches) { transformArray = [1165, 565, 0, -565, -1165]};
 
   
+// Slider JS
 
 
 const imageContainer = document.querySelector(".work__image");

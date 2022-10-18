@@ -38,6 +38,10 @@
         display: flex;
         gap: 1.6rem;
         margin-top: 5.8rem;
+
+        
+
+        
         
         
         &-slider{
@@ -47,6 +51,24 @@
             padding: 2.2rem 2.4rem;
             border-radius: 50%;
             border: none;
+            cursor: pointer;
+
+            &:hover{
+                background-color: clrs.color(primary-btn-hover);
+            }
+
+            &:disabled{
+                background-color: grey;
+                cursor:not-allowed;
+            }
+
+            &[disabled]:hover{
+                background-color: grey;
+            }
+
+
+
+            
         }
 
     }

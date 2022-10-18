@@ -40,6 +40,9 @@
         &-btn{
             background-color: clrs.color(secondary-btn);
             
+            &:hover{
+                background-color: clrs.color(secondary-btn-hover);
+            }
         }
     }
 
@@ -57,6 +60,10 @@
 
         &-btn{
             background-color: clrs.color(primary-btn);
+
+            &:hover{
+                background-color: clrs.color(primary-btn-hover);
+            }
         }
     }
 }
